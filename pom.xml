@@ -148,18 +148,6 @@
         </plugins>
     </build>
 
-         <distributionManagement>
-    <repository>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
-      <url>http://3.108.254.192:8081/repository/maven-releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>maven-snapshots</id>
-      <name>maven-snapshots</name>
-      <url>http://3.108.254.192:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-</distributionManagement>
          
 <distributionManagement>
          <repository>
@@ -170,7 +158,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>Snapshot</name>
-      <url>http://16.112.104.104:8081/maven-snapshots</url>
+      <url>http://16.112.104.104:8081/repository/maven-snapshots</url>
     </snapshotRepository>
 </distributionManagement>
 
